@@ -88,9 +88,9 @@ def download_mp3(query):
 env = dict(os.environ)
 
 api_creds = {
-    "SPOTIPY_CLIENT_ID": "4ae5e09409f94e25abb46d1aa34a8b87",
-    "SPOTIPY_CLIENT_SECRET": "866ac7fe15a14699b3af4947051ab300",
-    "GENIUS_ACCESS_TOKEN": "2YLi_QGV0wOfwYBY33MaBUjsmvQy9ZejDrE9SKFRREmbwmsFj7wYGXcOzTYeuJgJ",
+    "SPOTIPY_CLIENT_ID": "Your-client-id",
+    "SPOTIPY_CLIENT_SECRET": "your-client-secret",
+    "GENIUS_ACCESS_TOKEN": "access-token",
 }
 
 os.environ.update(api_creds)
